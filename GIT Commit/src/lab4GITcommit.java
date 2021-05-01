@@ -7,7 +7,8 @@ import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
- 
+ // This is my first GIT commit
+
 public class lab4GITcommit  {
  
     private static final Logger LOGGER = Logger.getLogger(lab4GITcommit.class.getName());  // Define Logger
@@ -34,8 +35,9 @@ public class lab4GITcommit  {
        // Array has an index issue     
         }catch(ArrayIndexOutOfBoundsException ex){
             LOGGER.log(Level.SEVERE, "Exception occur", ex);
-            sndflagerr  = "Y";                                                           // Error flag - Error exists
-                     
+         
+            // Remove sndflagger field
+           
         }                                                                                // catch end bracket
         
          
